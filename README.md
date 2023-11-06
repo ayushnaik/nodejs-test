@@ -37,7 +37,7 @@ Run production build with a different env file.
 
 - **Database**: The application uses MongoDB for storing book data.
 
-- **Video Demonstration**: A video demonstration showcasing all CRUD operations is available. The video covers various test cases, including edge cases such as attempting to view, update, or delete a non-existent book. You can watch the video on [Googel Drive](https://drive.google.com/file/d/13Q0D4LJ4fkjuiJXGSRPXs6ZyTAJPq_ky/view?usp=drive_link).
+- **Video Demonstration**: A video demonstration showcasing all CRUD operations is available. The video covers various test cases, including edge cases such as attempting to view, update, or delete a non-existent book. You can watch the video on [Google Drive](https://drive.google.com/file/d/13Q0D4LJ4fkjuiJXGSRPXs6ZyTAJPq_ky/view?usp=drive_link).
 
 ## API Endpoints
 
