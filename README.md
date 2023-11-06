@@ -66,4 +66,4 @@ To run the application locally, follow these steps:
    npm i
    npm run dev
 
-The API will be accessible at <http://localhost:3000> and api documentation or Swagger fill be at The API will be accessible at <http://localhost:3000/apiDocs>.
+The API will be accessible at <https://code-challenge-rv8j.onrender.com> and api documentation or Swagger fill be at The API will be accessible at <https://code-challenge-rv8j.onrender.com/apiDocs>.
