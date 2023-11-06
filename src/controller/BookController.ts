@@ -5,8 +5,8 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import logger from 'jet-logger';
-import OutputResponseDto from '@src/resources/OutputResponseDto';
-import BookService from '@src/services/BookService';
+import OutputResponseDto from '../resources/OutputResponseDto';
+import BookService from '../services/BookService';
 
 class BookController{
   /* The `createBook` method in the `BookController` class is an asynchronous function that handles the

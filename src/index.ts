@@ -9,8 +9,9 @@
 import './pre-start'; // Must be the first import
 import logger from 'jet-logger';
 import * as http from 'http';
+import 'module-alias/register';
 
-import EnvVars from '@src/constants/EnvVars';
+import EnvVars from './constants/EnvVars';
 import app from './server';
 import mongoose from 'mongoose';
 

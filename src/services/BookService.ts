@@ -3,9 +3,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable max-len */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import OutputResponseDto from '@src/resources/OutputResponseDto';
+import OutputResponseDto from '../resources/OutputResponseDto';
 import logger from 'jet-logger';
-import Book from '@src/models/Book';
+import Book from '../models/Book';
 
 class BookService {
   /* The `createBook` method is a public method of the `BookService` class. It is an asynchronous

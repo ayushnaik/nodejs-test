@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import express from 'express';
-import BookController from '@src/controller/BookController';
+import BookController from '../controller/BookController';
 
 const BookRouter = express.Router();
 

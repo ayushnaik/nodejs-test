@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npx ts-node build.ts",
     "lint": "npx eslint --ext .ts src/",
-    "start": "node -r module-alias/register ./dist/src/index.js --env=production",
+    "start": "node ./dist/src/index.js",
     "dev": "nodemon"
   },
   "nodemonConfig": {

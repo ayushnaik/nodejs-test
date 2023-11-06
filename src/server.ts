@@ -14,14 +14,14 @@ import logger from 'jet-logger';
 import swaggerUi from 'swagger-ui-express';
 import 'express-async-errors';
 
-import EnvVars from '@src/constants/EnvVars';
-import HttpStatusCodes from '@src/constants/HttpStatusCodes';
+import EnvVars from './constants/EnvVars';
+import HttpStatusCodes from './constants/HttpStatusCodes';
 
-import { NodeEnvs } from '@src/constants/misc';
-import { RouteError } from '@src/other/classes';
-import swaggerDocument from '@src/resources/SwaggerDocument';
+import { NodeEnvs } from './constants/misc';
+import { RouteError } from './other/classes';
+import swaggerDocument from './resources/SwaggerDocument';
 
-import BookRouter from '@src/routes/BookRouter';
+import BookRouter from './routes/BookRouter';
 
 
 // **** Variables **** //

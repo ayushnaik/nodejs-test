@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import swaggerJsdoc from 'swagger-jsdoc';
 import PACKAGE from '../../package.json';
-import EnvVars from '@src/constants/EnvVars';
+import EnvVars from '../constants/EnvVars';
 
 const options = {
   failOnErrors: true,
