@@ -19,7 +19,7 @@ const options = {
         email: PACKAGE.email,
       },
     },
-    host: EnvVars.NodeEnv === 'production' ? 'http://13.233.117.105:4000/api' : 'http://localhost:3000/api',
+    host: EnvVars.NodeEnv === 'production' ? 'https://code-challenge-rv8j.onrender.com/api' : 'http://localhost:3000/api',
     schemes: ['http'],
     basePath: '/apiDocs',
     tags: [{
@@ -73,7 +73,7 @@ const options = {
       },
     },
     servers: [EnvVars.NodeEnv === 'production' ? {
-      url: 'http://13.233.117.105:3000/api',
+      url: 'https://code-challenge-rv8j.onrender.com/api',
       description: 'Production Server.',
     } : {
       url: 'http://localhost:3000/api',
